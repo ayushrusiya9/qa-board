@@ -14,6 +14,12 @@ The application focuses on core frontend concepts such as state management, rout
 - Protected routes for authenticated users and admin access
 - State updates without page reloads
 
+## Admin moderation panel Credentials
+
+Admin Login:
+- Email: admin@example.com
+- Password: admin123
+
 ## Tech Stack
 
 - React
