@@ -1,4 +1,4 @@
-import QuestionForm from "../../components/QuestionForm";
+import QuestionForm from "./QuestionForm";
 import { useQA } from "../../context/QAContext";
 
 const NewQuestion = () => {

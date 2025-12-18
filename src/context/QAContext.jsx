@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import initialQuestions from "../data/initialQuetions";
+import initialQuestions from "../data/initialQuestions";
 
 const QAContext = createContext();
 
