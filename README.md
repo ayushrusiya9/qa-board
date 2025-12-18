@@ -1,16 +1,37 @@
-# React + Vite
+# Q&A Board – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides a minimal and clean implementation of a Q&A Board application built using React and Vite, with fast HMR and a simple component-based structure.
 
-Currently, two official plugins are available:
+The application focuses on core frontend concepts such as state management, routing, and role-based access without using external state libraries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- User authentication using Context API
+  - Signup with name, email, and password
+  - Login with email and password
+- Post questions and submit answers
+- Admin moderation panel to approve questions and answers
+- Protected routes for authenticated users and admin access
+- State updates without page reloads
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Purpose
+
+This project was developed as a technical assignment to demonstrate:
+- React fundamentals and component reusability
+- Context API for global state management
+- Route protection and basic role-based authorization
+- Clean and maintainable project structure
+
+## Development Setup
+
+```bash
+npm install
+npm run dev
